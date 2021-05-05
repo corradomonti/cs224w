@@ -3,17 +3,17 @@ channels:
   - default
   - conda-forge
 dependencies:
-  - python
-  - matplotlib
-  - networkx
-  - numpy
+  - python=3.9.2
+  - matplotlib=3.4.1
+  - networkx=2.5.1
+  - numpy=1.20.2
   - pandas
   - seaborn
-  - tqdm
+  - tqdm=4.60.0
   - pip
-  - jupyter
-  - pytorch
+  - jupyter=1.0.0
+  - pytorch=1.7.1
   - pip:
-    - torch-scatter
-    - torch-sparse
-    - torch-geometric
+    - torch-scatter==2.0.6
+    - torch-sparse==0.6.9
+    - torch-geometric==1.7.0
