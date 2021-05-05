@@ -1,0 +1,19 @@
+name: cs224w
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas
+  - seaborn
+  - tqdm
+  - pip
+  - jupyter
+  - pytorch
+  - pip:
+    - torch-scatter
+    - torch-sparse
+    - torch-geometric

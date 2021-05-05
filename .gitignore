@@ -1,0 +1,9 @@
+unversioned*
+tmp
+.DS_Store
+*.pyc
+*.p
+*.pickle
+*.fls
+.ipynb_checkpoints
+Untitled*.ipynb
