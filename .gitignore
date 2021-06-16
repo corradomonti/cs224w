@@ -1,4 +1,7 @@
 unversioned*
+enzymes
+data
+dataset
 tmp
 .DS_Store
 *.pyc
